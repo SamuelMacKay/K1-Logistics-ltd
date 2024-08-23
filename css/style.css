@@ -24,3 +24,14 @@ nav ul a{
     height: 500px;
     width: auto;
 }
+
+.image-size {
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 600px) {    
+    .blurb-font-size{
+        font-size: large;
+    }
+    
+}
