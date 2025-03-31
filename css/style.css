@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&display=swap');
+
+html {
+    font-family: Orbitron;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font-size-sm {
+    font-size: small;
+}
+
 nav a {
     color: purple;
 }
@@ -29,9 +43,15 @@ nav ul a{
     max-width: 100%;
 }
 
+.landing-page-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
 @media only screen and (min-width: 600px) {    
     .blurb-font-size{
-        font-size: large;
+        font-size: medium;
     }
     
 }
@@ -119,4 +139,41 @@ textarea {
 
 label {
     width: 80% !important;
+}
+
+.feature-image {
+    max-width: 100%;
+    max-height: 600px;
+}
+
+li {
+    font-size: 14px;
+    margin-left: 10px;
+    list-style-type: square !important;
+    display: list-item;
+ }
+
+ul:before {
+    content:attr(aria-label);
+    font-size:120%;
+    font-weight:bold;
+    font-style: italic;
+    margin-left:-15px;
+}
+
+.ml-minus-1 {
+    margin-left:-15px;
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    .s-d-none {
+        display: none;
+    }
+}
+
+@media (min-width: 601px) {
+    .m-d-none {
+        display: none;
+    }
 }

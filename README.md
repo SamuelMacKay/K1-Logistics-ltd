@@ -78,7 +78,6 @@ This is a sample of shots of what the site looks like on different devices.
 | ------------- | ------------------ |
 |![firefox home page]()|![chrome home page]()|
 |![firefox contact page]()|![chrome contact page]()|
-|![firefox about_us page]()|![chrome about_us page]()|
 |![firefox shipping page]()|![chrome shipping page]()|
 |![firefox storage page]()|![chrome storage page]()|
 
@@ -91,7 +90,6 @@ This is a sample of shots of what the site looks like on different devices.
 
 ![iPhone home page]()
 ![iPhone contact page]()
-![iPhone about_us page]()
 ![iPhone shipping page]()
 ![iPhone storage page]()
 
@@ -100,8 +98,6 @@ This is a sample of shots of what the site looks like on different devices.
     - home.html: No errors were returned when passing through the official W3C validator<br> 
 
    - contact.html: No errors were returned when passing through the official W3C validator<br> 
-
-   - about_us.html: No errors were returned when passing through the official W3C validator<br> 
 
    - shipping.html: No errors were returned when passing through the official W3C validator<br> 
 
@@ -166,10 +162,6 @@ To check the colors and fonts, I used Lighthouse in the Google devtools. The res
 | Contact |
 | ------- |
 | ![lighthouse result contact page]() |
-
-| About Us | 
-| ------- |
-| ![lighthouse result about_us page]() |
 
 | Shipping |
 | ------- |
