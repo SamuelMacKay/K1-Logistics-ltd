@@ -4,6 +4,10 @@ html {
     font-family: Orbitron;
 }
 
+body {
+    background-color: #e0e0e0;
+}
+
 .italic {
     font-style: italic;
 }
